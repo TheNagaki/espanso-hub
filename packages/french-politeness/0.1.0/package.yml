@@ -70,10 +70,24 @@ matches:
     propagate_case: true
     word: true
   - trigger: "jqtb"
-    replace: "J'espère que tu vas bien"
+    replace: "J'espère que tu vas bien."
     word: true
   - trigger: "jqvb"
-    replace: "J'espère que vous allez bien"
+    replace: "J'espère que vous allez bien."
+    word: true
+
+  ### ----------------
+  ### Politeness expressions
+  ### ----------------
+
+  - trigger: "svp"
+    replace: "s'il vous plaît"
+    propagate_case: true
+    word: true
+
+  - trigger: "stp"
+    replace: "s'il te plaît"
+    propagate_case: true
     word: true
 
   ### ----------------
