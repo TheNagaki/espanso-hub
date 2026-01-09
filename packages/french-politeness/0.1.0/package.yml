@@ -69,21 +69,17 @@ matches:
     replace: "coucou,"
     propagate_case: true
     word: true
-  - trigger: "jqtb."
-    replace: "J'espère que tu vas bien."
+  - trigger: "jqtb"
+    replace: "j'espère que tu vas bien"
+    propagate_case: true
     word: true
-  - trigger: "jqvb."
-    replace: "J'espère que vous allez bien."
-    word: true
-  - trigger: "jqtb!"
-    replace: "J'espère que tu vas bien !"
-    word: true
-  - trigger: "jqvb!"
-    replace: "J'espère que vous allez bien !"
+  - trigger: "jqvb"
+    replace: "j'espère que vous allez bien"
+    propagate_case: true
     word: true
 
   ### ----------------
-  ### Politeness expressions
+  ### Formula expressions
   ### ----------------
 
   - trigger: "svp"
