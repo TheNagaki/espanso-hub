@@ -69,11 +69,17 @@ matches:
     replace: "coucou,"
     propagate_case: true
     word: true
-  - trigger: "jqtb"
+  - trigger: "jqtb."
     replace: "J'espère que tu vas bien."
     word: true
-  - trigger: "jqvb"
+  - trigger: "jqvb."
     replace: "J'espère que vous allez bien."
+    word: true
+  - trigger: "jqtb!"
+    replace: "J'espère que tu vas bien !"
+    word: true
+  - trigger: "jqvb!"
+    replace: "J'espère que vous allez bien !"
     word: true
 
   ### ----------------
